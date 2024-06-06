@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header-1{
+    width: 100%;
+    height: 70px;
+    background-color: lightpink;
+}
+.header-2{
+    width: 100%;
+    height: 50px;
+    background-color:palevioletred ;
+}
+.logo{
+    width: 20%;
+    margin-left: 70px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.menu{
+    text-align: center;
+    padding-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: skyblue;
+}
+.search{
+    width: 40%;
+    margin-left: 70px;
+    display: inline-block;
+}
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('search.png');
+    background-size: 20px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 15px 15px 7px 40px;
+    border-radius: 20px;
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 15px 15px 7px 40px;
+}
+.crousel{
+    margin: 30px 30px 30px 30px;
+}
+.img.kategori{
+    border-radius: 100px;
+}
+.kategori {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.kategori table {
+    display: inline-block;
+}
+.gallery{
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    float: left;
+    width: calc(16% - 10px);
+}
+.gallery:hover{
+    border: 1px solid #777;
+    transform: scale(1.05);
+    transition: opacity 0,35 ease-in-out;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.harga {
+    padding-bottom: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.gallery-box{
+    margin-left: 50px;
+
+}
+.footer{
+    margin-top: 450px;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding-top: 20px;
+    background-color: hotpink;
+}
+.cart{
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.cart img{
+    height: 50px;
+}
+.profile{
+    margin-top: 25px;
+    margin-right: 25px;
+    display: inline-block;
+}
+.profile img{
+    height: 40px;
+}
